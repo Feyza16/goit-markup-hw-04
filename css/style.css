@@ -109,7 +109,19 @@ ul {
     color: #2e2f42;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    position: relative;
 
+}
+
+.header-menu .list .etiket::after {
+    content: "";
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
 }
 
 .header-menu .list .etiket:hover,
@@ -142,7 +154,7 @@ ul {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    position: relative;
+   
 }
 
 
